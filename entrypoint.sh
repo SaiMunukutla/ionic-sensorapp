@@ -4,8 +4,9 @@ cd /application
 unzip sensor.zip
 cd sensor
 ionic build android
-cp /application/sensor/platforms/android/build/outputs/apk/android-debug.apk /application
 cd ..
+git clone https://github.com/SusrithaMunukutla/apk_file.git /apk
+cp /application/sensor/platforms/android/build/outputs/apk/android-debug.apk /apk
 git remote set-url origin https://SusrithaMunukutla:welcome123@github.com/SusrithaMunukutla/apk_file.git
 git init
 git config --global user.email "saim@virtusa.com"
