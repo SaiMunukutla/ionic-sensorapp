@@ -6,10 +6,10 @@ cd sensor
 ionic build android
 cp /application/sensor/platforms/android/build/outputs/apk/android-debug.apk /application
 cd ..
-git remote set-url origin https://samhitha30:github123@github.com/samhitha30/ionic-app.git
+git remote set-url origin https://SusrithaMunukutla:welcome123@github.com/SusrithaMunukutla/apk_file.git
 git init
-git config --global user.email "samhitha225@gmail.com"
-git config --global user.name "samhitha30"
+git config --global user.email "saim@virtusa.com"
+git config --global user.name "SusrithaMunukutla"
 #git rm -f androi-debug.apk
 #git commit -m 'removed'
 #git push
