@@ -15,7 +15,7 @@ git config --global user.name "SusrithaMunukutla"
 #git commit -m 'removed'
 #git push
 git add .
-git commit -m 'added apk'
+git commit -m 'Updated apk file'
 git remote -v
 git push
 cd /application/sensor
