@@ -20,6 +20,6 @@ git remote -v
 git push
 cd /application/simulator
 ionic serve -a
-#if(curl http://52.63.237.171:8100); then echo"Successful"; else echo"Failed";
+#if(fcurl http://52.63.237.171:8100); then echo"Successful"; else echo"Failed";
 #fi
 
