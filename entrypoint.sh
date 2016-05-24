@@ -1,7 +1,7 @@
 #!/bin/bash
 git clone https://github.com/samhitha30/ionic-app.git /application
 cd /application
-unzip sensornew.zip
+unzip simulator.zip
 git clone https://github.com/SusrithaMunukutla/apk_file.git 
 cd simulator
 ionic build android
